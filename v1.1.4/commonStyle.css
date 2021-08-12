@@ -21,6 +21,7 @@ body>.res_top_banner,
 #content_left>[id$="0"]~[id="1"],
 #content_right,
 #top-ad,
+#content_left .c-container[data-lp],
 #demo {
     display: none !important;
 }
