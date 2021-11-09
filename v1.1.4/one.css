@@ -54,7 +54,23 @@
 }
 
 
+/* 修复大屏不居中 */
+@media screen and (min-width: 1200px){
+    #container.sam_newgrid{
+    padding-left:0!important;
+    }
 
+}
+/* 修复页码排版问题 */
+#page{
+    width:100%!important;
+    background:transparent!important;
+}
+
+#page>div{
+    display:inline-block!important;
+    padding:0 !important;
+}
 
 
 
