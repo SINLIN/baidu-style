@@ -83,5 +83,8 @@
     padding:0 !important;
 }
 
-
+/* 修复搜索工具排版问题 */
+.options_2Vntk{
+	width:100%!important;
+}
 
