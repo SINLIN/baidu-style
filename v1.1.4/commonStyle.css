@@ -100,7 +100,7 @@ a, em{
     background-color: transparent!important;
 }
 #form {
-    margin-left: 130px;
+    margin-left: 140px;
     vertical-align: top;
     box-shadow: none!important;
 }
@@ -342,8 +342,7 @@ a, em{
 }
 
 
-#content_left .c-container[tpl],
-
+#content_left .c-container[id][tpl],
 #rs_new,
 #rs {
     width: 640px!important;
@@ -359,10 +358,9 @@ a, em{
 /*      box-shadow:0 0px 3px rgba(0,0,0,.1); */
 }
 
-#content_left .c-result-content>.c-container{
+#content_left .c-result-content>.c-container[id]{
     border:none!important;
     margin-left:-20px!important;
-   
 }
 
 
@@ -396,7 +394,13 @@ a, em{
 	padding:0!important;
 }
 
-
+/* 百度文库排版 */
+#content_left .c-container[tpl="jy_rota_wenshu_pc"] .c-container{
+	padding-top: 0!important;
+}
+#content_left .c-container[tpl="jy_rota_wenshu_pc"] header.c-gap-bottom-small{
+	padding-bottom:10px!important;
+}
 
 
 
@@ -631,8 +635,9 @@ tbody a:hover,
     height: 40px;
     line-height: 40px;
     padding: 5px 10px !important;
-    margin: 0px 0px 50px 80px !important;
+    margin: 0px 0px 50px 30px !important;
     text-align: center;
+	background-color: transparent!important;
 }
 #page a,
 #page strong {
@@ -772,12 +777,12 @@ tbody a:hover,
 
 
 
-#content_left .c-container,
+#content_left .c-container[id],
 #rs{
 	position:relative!important;
 }
 
-#content_left .c-container:after,
+#content_left .c-container[id]:after,
 #rs:after{
 	content:"";
 	z-index:-1;
@@ -794,4 +799,3 @@ tbody a:hover,
     background-color: hsla(0, 0%, 100%, .2)!important;
     box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.1)!important;
 }
-
